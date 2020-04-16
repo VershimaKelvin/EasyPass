@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".year2semester2">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/textViewStyle"
+            android:id="@+id/txt"
+            android:text="@string/year_2_second_semester"/>
+
+        <Button
+            android:onClick="csc2201"
+            style="@style/button_design"
+            android:layout_below="@+id/txt"
+            android:id="@+id/b1"
+            android:text="@string/computer_programming_ii_csc2201" />
+        <Button
+            android:onClick="csc2202"
+            style="@style/button_design"
+            android:layout_below="@+id/b1"
+            android:id="@+id/b2"
+            android:text="@string/fundamentals_of_data_structure_csc2202" />
+        <Button
+            android:onClick="csc2203"
+            style="@style/button_design"
+            android:layout_below="@+id/b2"
+            android:id="@+id/b3"
+            android:text="@string/operating_systems_ii_csc2203" />
+        <Button
+            android:onClick="csc2204"
+            style="@style/button_design"
+            android:layout_below="@+id/b3"
+            android:id="@+id/b4"
+            android:text="@string/switching_algebra_and_discrete_structures_csc2204" />
+
+        <Button
+            android:onClick="csc2205"
+            style="@style/button_design"
+            android:layout_below="@+id/b4"
+            android:id="@+id/b5"
+            android:text="@string/introduction_to_digital_design_csc2205" />
+        <Button
+            android:onClick="mth2201"
+            style="@style/button_design"
+            android:layout_below="@+id/b5"
+            android:id="@+id/b6"
+            android:text="@string/linear_algebra_ii_mth2201" />
+
+        <Button
+            android:onClick="ent3201"
+            android:layout_marginBottom="20dp"
+            style="@style/button_design"
+            android:id="@+id/b7"
+            android:layout_below="@+id/b6"
+            android:text="@string/entrepreneurship_study_ii_ent3201" />
+
+    </RelativeLayout>
+
+</ScrollView>

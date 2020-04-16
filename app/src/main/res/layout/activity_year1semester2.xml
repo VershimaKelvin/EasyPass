@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".year1semester2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/textViewStyle"
+            android:id="@+id/txt"
+            android:text="@string/year_1_second_semester_courses" />
+
+        <Button
+            android:onClick="css1201"
+            style="@style/button_design"
+            android:layout_below="@+id/txt"
+            android:id="@+id/b1"
+            android:text="@string/introduction_to_computer_science_using_basic_csc1201" />
+        <Button
+            android:onClick="csc1202"
+            style="@style/button_design"
+            android:layout_below="@+id/b1"
+            android:id="@+id/b2"
+            android:text="@string/pascal_programming_csc1202"/>
+        <Button
+            android:onClick="csc1203"
+            style="@style/button_design"
+            android:layout_below="@+id/b2"
+            android:id="@+id/b3"
+            android:text="@string/introduction_to_internet_csc1203" />
+        <Button
+            android:onClick="mth1201"
+            style="@style/button_design"
+            android:layout_below="@+id/b3"
+            android:id="@+id/b4"
+            android:text="@string/general_mathematics_ii_mth1201" />
+
+        <Button
+            android:onClick="mth1202"
+            style="@style/button_design"
+            android:layout_below="@+id/b4"
+            android:id="@+id/b5"
+            android:text="@string/general_mathematics_iii_mth1202" />
+        <Button
+            android:onClick="phy1201"
+            style="@style/button_design"
+            android:layout_below="@+id/b5"
+            android:id="@+id/b6"
+            android:text="@string/general_physics_ii_phy1201" />
+
+        <Button
+            android:onClick="sta1201"
+            style="@style/button_design"
+            android:id="@+id/b7"
+            android:layout_below="@+id/b6"
+            android:text="@string/introduction_to_statistics_sta1201"/>
+
+        <Button
+            android:onClick="gss1201"
+            style="@style/button_design"
+            android:id="@+id/b8"
+            android:layout_below="@+id/b7"
+            android:text="@string/use_of_english_and_communication_skill_gss1201"/>
+
+        <Button
+            android:onClick="gss1202"
+            style="@style/button_design"
+            android:id="@+id/b9"
+            android:layout_below="@+id/b8"
+            android:text="@string/nigerian_people_and_culture_gss1202"/>
+        <Button
+            android:onClick="gss1203"
+            android:layout_marginBottom="20dp"
+            style="@style/button_design"
+            android:id="@+id/b10"
+            android:layout_below="@+id/b9"
+            android:text="@string/history_and_philosophy_of_science_gss1203" />
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

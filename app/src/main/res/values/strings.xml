@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">EasyPass</string>
+    <string name="caution1">*You have to select a LEVEL to continue.</string>
+    <string name="caution2">*You have to select a SEMESTER to continue.</string>
+    <string name="year_1_first_semester">year 1 - first semester</string>
+    <string name="introduction_to_problem_solving_csc1101">Introduction to problem sovling csc1101</string>
+    <string name="general_mathematics_i_mth1101">general mathematics I mth1101</string>
+    <string name="general_physics_i_phy1101">general physics I phy1101</string>
+    <string name="practical_physics_phy1104">practical physics phy1104</string>
+    <string name="general_chemistry_chm1101">general chemistry chm1101</string>
+    <string name="general_biology_bio1101">general Biology bio1101</string>
+    <string name="introduction_to_computer_science_gss1103">introduction to computer science gss1103</string>
+    <string name="use_of_english_and_communication_skill_gss1101">use of english and communication skill gss1101</string>
+    <string name="philosophy_and_logic_gss1102">philosophy and logic gss1102</string>
+    <string name="year_1_second_semester_courses">year 1 - second semester courses</string>
+    <string name="introduction_to_computer_science_using_basic_csc1201">Introduction to computer science using basic csc1201</string>
+    <string name="pascal_programming_csc1202">pascal programming csc1202</string>
+    <string name="introduction_to_internet_csc1203">Introduction to internet csc1203</string>
+    <string name="general_mathematics_ii_mth1201">general mathematics II mth1201</string>
+    <string name="general_mathematics_iii_mth1202">general mathematics III mth1202</string>
+    <string name="general_physics_ii_phy1201">general physics II phy1201</string>
+    <string name="introduction_to_statistics_sta1201">introduction to statistics sta1201</string>
+    <string name="use_of_english_and_communication_skill_gss1201">use of english and communication skill gss1201</string>
+    <string name="nigerian_people_and_culture_gss1202">Nigerian People and culture gss1202</string>
+    <string name="history_and_philosophy_of_science_gss1203">history and philosophy of science gss1203</string>
+    <string name="year_2_first_semester">year 2 - first semester</string>
+    <string name="computer_programming_i_csc2101">computer programming I csc2101</string>
+    <string name="computer_organisation_and_assembly_language_programming_csc2102">computer organisation and assembly language programming csc2102</string>
+    <string name="operating_system_i_csc2103">operating system I csc2103</string>
+    <string name="linear_algebra_mth2103">Linear algebra mth2103</string>
+    <string name="mathematical_methods_mth2104">mathematical methods mth2104</string>
+    <string name="peace_and_conflict_studies_gss2101">peace and conflict studies gss2101</string>
+    <string name="entrepreneurship_study_i_ent3101">entrepreneurship study I ent3101</string>
+    <string name="entrepreneurship_study_ii_ent3201">entrepreneurship study II ent3201</string>
+    <string name="linear_algebra_ii_mth2201">Linear algebra II mth2201</string>
+    <string name="operating_systems_ii_csc2203">operating systems II csc2203</string>
+    <string name="switching_algebra_and_discrete_structures_csc2204">switching algebra and discrete structures csc2204</string>
+    <string name="introduction_to_digital_design_csc2205">introduction to digital design csc2205</string>
+    <string name="fundamentals_of_data_structure_csc2202">fundamentals of data structure csc2202</string>
+    <string name="computer_programming_ii_csc2201">computer programming II csc2201</string>
+    <string name="year_2_second_semester">year 2 - second semester</string>
+    <string name="database_design_and_management_csc3107">database design and management csc3107</string>
+    <string name="analysis_of_algorithm_csc3106">analysis of algorithm csc3106</string>
+    <string name="object_oriented_programming_csc3105">object oriented programming csc3105</string>
+    <string name="compiler_construction_csc3104">compiler construction csc3104</string>
+    <string name="numerical_methods_csc3103">Numerical methods csc3103</string>
+    <string name="system_analysis_and_design_csc3102">system analysis and design csc3102</string>
+    <string name="computer_architectures_csc3101">computer architectures csc3101</string>
+    <string name="year_3_first_semester">year 3 - first semester</string>
+    <string name="SIWES_industrial_training_6_credit_unit">SWIES(industrial training) 6 credit unit</string>
+    <string name="year_4_first_semester">year 4 - first semester</string>
+    <string name="automata_theory_and_formal_languages_csc4101">Automata theory and formal languages csc4101</string>
+    <string name="artificial_intelligence_csc4102">artificial intelligence csc4102</string>
+    <string name="software_engineering_csc4103">software engineering csc4103</string>
+    <string name="system_modeling_and_simulation_csc4104">system modeling and simulation csc4104</string>
+    <string name="computer_networks_and_communication_csc4105">computer networks and communication csc4105</string>
+    <string name="special_topics_in_computer_science_csc4106">special topics in computer science csc4106</string>
+    <string name="net_centric_computing_csc4107">net-centric computing csc4107</string>
+    <string name="operation_research_csc4205">operation research csc4205</string>
+    <string name="computer_graphics_and_visualization_csc4204">computer graphics and visualization csc4204</string>
+    <string name="software_project_management_csc4203">software project management csc4203</string>
+    <string name="computer_networks_and_administration_csc4202">computer networks and administration csc4202</string>
+    <string name="queuing_system_csc4201">queuing system csc4201</string>
+    <string name="year_4_second_semester">year 4 - second semester</string>
+    <string name="kelvinityavyar_gmail_com">kelvinityavyar@gmail.com</string>
+    <string name="contact_us_through">Contact us through</string>
+    <string name="barefootStory">Barefooted is a private company still at its infancy that specializes in building application for the android platform. It was founded and is headed by VERSHIMA KELVIN ITYAVYAR.It has a large team of developers to solve any problem and come up with the best possible android application for any bussines at the shortest possible time.</string>
+    <string name="barefooted">BAREFOOTED</string>
+    <string name="next">CONTINUE</string>
+    <string name="about">About</string>
+
+    <string-array name="level">
+        <item>SELECT LEVEL</item>
+        <item>100 LEVEL</item>
+        <item>200 LEVEL</item>
+        <item>300 LEVEL</item>
+        <item>400 LEVEL</item>
+
+    </string-array>
+    <string-array name="semesters">
+        <item>SELECT SEMESTER</item>
+        <item>First Semester</item>
+        <item>Second Semester</item>
+
+    </string-array>
+</resources>

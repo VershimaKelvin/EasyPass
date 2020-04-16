@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".about">
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:id="@+id/two"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/two"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+    <TextView
+        android:id="@+id/baree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/two"
+        android:layout_centerHorizontal="true"
+        android:text="@string/barefooted"
+        android:textColor="#000000"
+        android:textStyle="italic" />
+    <TextView
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:id="@+id/tt1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/barefootStory"
+        android:layout_below="@+id/baree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:id="@+id/tt2"
+        android:text="@string/contact_us_through"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:layout_toRightOf="@+id/tt2"
+        android:id="@+id/tt3"
+        android:text="@string/kelvinityavyar_gmail_com"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/tt2" />
+
+</RelativeLayout>

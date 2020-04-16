@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".year4semester1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/textViewStyle"
+            android:id="@+id/txt"
+            android:text="@string/year_4_first_semester" />
+
+        <Button
+            android:onClick="csc4101"
+            style="@style/button_design"
+            android:layout_below="@+id/txt"
+            android:id="@+id/b1"
+            android:text="@string/automata_theory_and_formal_languages_csc4101" />
+        <Button
+            android:onClick="csc4102"
+            style="@style/button_design"
+            android:layout_below="@+id/b1"
+            android:id="@+id/b2"
+            android:text="@string/artificial_intelligence_csc4102" />
+        <Button
+            android:onClick="csc4103"
+            style="@style/button_design"
+            android:layout_below="@+id/b2"
+            android:id="@+id/b3"
+            android:text="@string/software_engineering_csc4103" />
+        <Button
+            android:onClick="csc4104"
+            style="@style/button_design"
+            android:layout_below="@+id/b3"
+            android:id="@+id/b4"
+            android:text="@string/system_modeling_and_simulation_csc4104" />
+
+        <Button
+            android:onClick="csc4105"
+            style="@style/button_design"
+            android:layout_below="@+id/b4"
+            android:id="@+id/b5"
+            android:text="@string/computer_networks_and_communication_csc4105" />
+
+        <Button
+            android:onClick="csc4107"
+            android:layout_marginBottom="20dp"
+            style="@style/button_design"
+            android:id="@+id/b7"
+            android:layout_below="@+id/b5"
+            android:text="@string/net_centric_computing_csc4107"/>
+
+    </RelativeLayout>
+
+</ScrollView>

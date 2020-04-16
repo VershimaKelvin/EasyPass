@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".year4semester2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/textViewStyle"
+            android:id="@+id/txt"
+            android:text="@string/year_4_second_semester" />
+
+        <Button
+            android:onClick="csc4201"
+            style="@style/button_design"
+            android:layout_below="@+id/txt"
+            android:id="@+id/b1"
+            android:text="@string/queuing_system_csc4201" />
+        <Button
+            android:onClick="csc4202"
+            style="@style/button_design"
+            android:layout_below="@+id/b1"
+            android:id="@+id/b2"
+            android:text="@string/computer_networks_and_administration_csc4202" />
+        <Button
+            android:onClick="csc4203"
+            style="@style/button_design"
+            android:layout_below="@+id/b2"
+            android:id="@+id/b3"
+            android:text="@string/software_project_management_csc4203" />
+        <Button
+            android:onClick="csc4204"
+            style="@style/button_design"
+            android:layout_below="@+id/b3"
+            android:id="@+id/b4"
+            android:text="@string/computer_graphics_and_visualization_csc4204" />
+
+        <Button
+            android:onClick="csc4205"
+            android:layout_marginBottom="20dp"
+            style="@style/button_design"
+            android:layout_below="@+id/b4"
+            android:id="@+id/b5"
+            android:text="@string/operation_research_csc4205" />
+
+    </RelativeLayout>
+
+</ScrollView>

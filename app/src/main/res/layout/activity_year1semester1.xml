@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".year1semester1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/textViewStyle"
+            android:id="@+id/txt"
+            android:text="@string/year_1_first_semester" />
+
+        <Button
+            android:onClick="css1101"
+            android:layout_below="@+id/txt"
+            android:id="@+id/b1"
+            style="@style/button_design"
+            android:text="@string/introduction_to_problem_solving_csc1101"/>
+
+        <Button
+            android:onClick="mth1101"
+            style="@style/button_design"
+            android:layout_below="@+id/b1"
+            android:id="@+id/b2"
+            android:text="@string/general_mathematics_i_mth1101"
+            />
+        <Button
+            android:onClick="phy1101"
+            style="@style/button_design"
+            android:layout_below="@+id/b2"
+            android:id="@+id/b3"
+            android:text="@string/general_physics_i_phy1101" />
+        <Button
+            android:onClick="phy1104"
+            style="@style/button_design"
+            android:layout_below="@+id/b3"
+            android:id="@+id/b4"
+            android:text="@string/practical_physics_phy1104" />
+
+        <Button
+            android:onClick="chm1101"
+            style="@style/button_design"
+            android:layout_below="@+id/b4"
+            android:id="@+id/b5"
+            android:text="@string/general_chemistry_chm1101" />
+        <Button
+            android:onClick="bio1101"
+            style="@style/button_design"
+            android:layout_below="@+id/b5"
+            android:id="@+id/b6"
+            android:text="@string/general_biology_bio1101" />
+
+        <Button
+            android:onClick="gss1103"
+            style="@style/button_design"
+            android:id="@+id/b7"
+            android:layout_below="@+id/b6"
+            android:text="@string/introduction_to_computer_science_gss1103" />
+
+        <Button
+            android:onClick="gss1101"
+            style="@style/button_design"
+            android:id="@+id/b8"
+            android:layout_below="@+id/b7"
+            android:text="@string/use_of_english_and_communication_skill_gss1101" />
+
+        <Button
+            android:onClick="gss1102"
+            android:layout_marginBottom="20dp"
+            style="@style/button_design"
+            android:id="@+id/b9"
+            android:layout_below="@+id/b8"
+            android:text="@string/philosophy_and_logic_gss1102"
+            android:textColor="@color/white"/>
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

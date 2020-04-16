@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".year3semester2">
+
+    <TextView
+        android:layout_marginStart="10dp"
+        android:textAllCaps="true"
+        android:text="@string/SIWES_industrial_training_6_credit_unit"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#0C84E6"
+        android:textSize="20sp"
+        android:layout_height="wrap_content" />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.barefoot.easypass">
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.barefoot.easypass.CSC4205"></activity>
+        <activity android:name="com.barefoot.easypass.CSC4204" />
+        <activity android:name="com.barefoot.easypass.CSC4203" />
+        <activity android:name="com.barefoot.easypass.CSC4202" />
+        <activity android:name="com.barefoot.easypass.CSC4201" />
+        <activity android:name="com.barefoot.easypass.CSC4107" />
+        <activity android:name="com.barefoot.easypass.CSC4105" />
+        <activity android:name="com.barefoot.easypass.CSC4104" />
+        <activity android:name="com.barefoot.easypass.CSC4103" />
+        <activity android:name="com.barefoot.easypass.CSC4102" />
+        <activity android:name="com.barefoot.easypass.CSC4101" />
+        <activity android:name="com.barefoot.easypass.CSC3107" />
+        <activity android:name="com.barefoot.easypass.CSC3106" />
+        <activity android:name="com.barefoot.easypass.CSC3105" />
+        <activity android:name="com.barefoot.easypass.CSC3104" />
+        <activity android:name="com.barefoot.easypass.CSC3103" />
+        <activity android:name="com.barefoot.easypass.CSC3102" />
+        <activity android:name="com.barefoot.easypass.CSC3101" />
+        <activity android:name="com.barefoot.easypass.ENT3201" />
+        <activity android:name="com.barefoot.easypass.MTH2201" />
+        <activity android:name="com.barefoot.easypass.CSC2205" />
+        <activity android:name="com.barefoot.easypass.CSC2204" />
+        <activity android:name="com.barefoot.easypass.CSC2203" />
+        <activity android:name="com.barefoot.easypass.CSC2202" />
+        <activity android:name="com.barefoot.easypass.CSC2201" />
+        <activity android:name="com.barefoot.easypass.ENT3101" />
+        <activity android:name="com.barefoot.easypass.GSS2101" />
+        <activity android:name="com.barefoot.easypass.MTH2104" />
+        <activity android:name="com.barefoot.easypass.MTH2103" />
+        <activity android:name="com.barefoot.easypass.CSC2103" />
+        <activity android:name="com.barefoot.easypass.CSC2102" />
+        <activity android:name="com.barefoot.easypass.CSC2101" />
+        <activity android:name="com.barefoot.easypass.GSS1203" />
+        <activity android:name="com.barefoot.easypass.GSS1202" />
+        <activity android:name="com.barefoot.easypass.GSS1201" />
+        <activity android:name="com.barefoot.easypass.STA1201" />
+        <activity android:name="com.barefoot.easypass.PHY1201" />
+        <activity android:name="com.barefoot.easypass.MTH1202" />
+        <activity android:name="com.barefoot.easypass.MTH1201" />
+        <activity android:name="com.barefoot.easypass.CSC1203" />
+        <activity android:name="com.barefoot.easypass.CSC1202" />
+        <activity android:name="com.barefoot.easypass.CSC1201" />
+        <activity android:name="com.barefoot.easypass.GSS1103" />
+        <activity android:name="com.barefoot.easypass.GSS1102" />
+        <activity android:name="com.barefoot.easypass.GSS1101" />
+        <activity android:name="com.barefoot.easypass.BIO1101" />
+        <activity android:name="com.barefoot.easypass.CHM1101" />
+        <activity android:name="com.barefoot.easypass.PHY1104" />
+        <activity android:name="com.barefoot.easypass.PHY1101" />
+        <activity android:name="com.barefoot.easypass.MTH1101" />
+        <activity android:name="com.barefoot.easypass.CSC1101" />
+        <activity android:name="com.barefoot.easypass.about" />
+        <activity
+            android:name="com.barefoot.easypass.year4semester2"
+            android:screenOrientation="locked" />
+        <activity
+            android:name="com.barefoot.easypass.year4semester1"
+            android:screenOrientation="locked" />
+        <activity
+            android:name="com.barefoot.easypass.year3semester2"
+            android:screenOrientation="locked" />
+        <activity
+            android:name="com.barefoot.easypass.year3semester1"
+            android:screenOrientation="locked" />
+        <activity
+            android:name="com.barefoot.easypass.year2semester2"
+            android:screenOrientation="locked" />
+        <activity
+            android:name="com.barefoot.easypass.year2semester1"
+            android:screenOrientation="locked" />
+        <activity
+            android:name="com.barefoot.easypass.year1semester2"
+            android:screenOrientation="locked" />
+        <activity
+            android:name="com.barefoot.easypass.year1semester1"
+            android:screenOrientation="locked" />
+        <activity
+            android:name="com.barefoot.easypass.login"
+            android:screenOrientation="locked" />
+        <activity
+            android:name="com.barefoot.easypass.MainActivity"
+            android:screenOrientation="locked">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

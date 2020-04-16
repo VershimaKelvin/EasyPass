@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".year3semester1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/textViewStyle"
+            android:id="@+id/txt"
+            android:text="@string/year_3_first_semester"/>
+
+        <Button
+            android:onClick="csc3101"
+            style="@style/button_design"
+            android:layout_below="@+id/txt"
+            android:id="@+id/b1"
+            android:text="@string/computer_architectures_csc3101" />
+        <Button
+            android:onClick="csc3102"
+            style="@style/button_design"
+            android:layout_below="@+id/b1"
+            android:id="@+id/b2"
+            android:text="@string/system_analysis_and_design_csc3102" />
+        <Button
+            android:onClick="csc3103"
+            style="@style/button_design"
+            android:layout_below="@+id/b2"
+            android:id="@+id/b3"
+            android:text="@string/numerical_methods_csc3103" />
+        <Button
+            android:onClick="csc3104"
+            style="@style/button_design"
+            android:layout_below="@+id/b3"
+            android:id="@+id/b4"
+            android:text="@string/compiler_construction_csc3104" />
+
+        <Button
+            android:onClick="csc3105"
+            style="@style/button_design"
+            android:layout_below="@+id/b4"
+            android:id="@+id/b5"
+            android:text="@string/object_oriented_programming_csc3105" />
+        <Button
+            android:onClick="csc3106"
+            style="@style/button_design"
+            android:layout_below="@+id/b5"
+            android:id="@+id/b6"
+            android:text="@string/analysis_of_algorithm_csc3106" />
+
+        <Button
+            android:onClick="csc3107"
+            android:layout_marginBottom="20dp"
+            style="@style/button_design"
+            android:id="@+id/b7"
+            android:layout_below="@+id/b6"
+            android:text="@string/database_design_and_management_csc3107"/>
+
+    </RelativeLayout>
+
+</ScrollView>
