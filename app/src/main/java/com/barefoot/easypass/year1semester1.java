@@ -57,7 +57,7 @@ public class year1semester1 extends AppCompatActivity {
         Intent intent = new Intent(this, CHM1101.class);
         startActivity(intent);
     }
-
+//hey
     public void phy1104(View view) {
         Intent intent = new Intent(this, PHY1104.class);
         startActivity(intent);
