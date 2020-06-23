@@ -53,7 +53,8 @@ public class login extends AppCompatActivity implements View.OnClickListener, Ad
 
 
         //here i created an adapter to help load the item into the second spinner
-        ArrayAdapter<CharSequence> adapter2 = ArrayAdapter.createFromResource(this, R.array.semesters,android.R.layout.simple_spinner_item);
+        ArrayAdapter<CharSequence> adapter2 = ArrayAdapter.createFromResource(this, R.array.semesters
+                ,android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 
         //here i attached the adapter i had created to the spinner

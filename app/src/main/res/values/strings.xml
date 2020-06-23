@@ -83,4 +83,49 @@
         <item>Second Semester</item>
 
     </string-array>
+
+    <string-array name="faculty">
+        <item>SELECT FACULTY</item>
+        <item>Physical Science</item>
+        <item>Biological Science</item>
+        <item>Engineering</item>
+        <item>Environmental Sciences</item>
+        <item>Education</item>
+        <item>Management Science</item>
+        <item>Basic Medical Sciences</item>
+        <item>Agriculture and Forestry</item>
+    </string-array>
+
+    <string-array name="Department">
+        <item>SELECT Department</item>
+        <item>Computer Science</item>
+        <item>Physics</item>
+        <item>Mathematics and Statistics </item>
+        <item>Chemistry</item>
+        <item>Biochemistry</item>
+        <item>Biology</item>
+        <item>Microbiology</item>
+        <item>Urban and Regional Planning</item>
+        <item>Visual Arts and Technology</item>
+        <item>Mass Communication</item>
+        <item>Accountancy</item>
+        <item>Business Administration</item>
+        <item>Hospitality and Tourism</item>
+        <item>Medical Biochemistry</item>
+        <item>Medical Physiology</item>
+        <item>Human Anatomy</item>
+        <item>Animal Science</item>
+        <item>Agriculture Economics and Extention</item>
+        <item>Agronomy</item>
+        <item>Fisheries and Aquatic Science</item>
+        <item>Forestry and Wildlife Management</item>
+        <item>Electrical/Electronics Engineering</item>
+        <item>Civil Engineering</item>
+        <item>Mechanical Engineering</item>
+        <item>Wood Product Engineering </item>
+        <item>Curriculum and Instructional Technology</item>
+        <item>Educational Foundation and Administration</item>
+        <item>Animal Environment Biology</item>
+        <item>Architecture</item>
+    </string-array>
 </resources>
