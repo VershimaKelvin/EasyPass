@@ -1,4 +1,4 @@
-# 📘 Computer Science Past Questions App
+# 📘 EassyPass
 
 A high-impact mobile application developed by **Vershima Kelvin Ityavyar**, designed to improve access to study materials for Computer Science students. Built using **Java**, **Android SDK**, **Room DB**, and **Firebase**, the app enables students to easily browse, search, and download past exam questions for offline study.
 
